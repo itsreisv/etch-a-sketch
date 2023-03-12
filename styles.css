@@ -1,0 +1,29 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    
+}
+
+.boxes {
+   display: grid;
+    width: 32px;
+    height: 32px;
+    border: black 1px solid;
+
+    
+   
+}
+
+.parent {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
