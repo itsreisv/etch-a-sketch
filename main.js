@@ -10,3 +10,17 @@ container.appendChild(newDiv);
 }
 
 
+function fill() {
+const test = document.getElementsByClassName('boxes');
+const array = Array.from(test);
+array.forEach(div => {
+    div.addEventListener ('mouseover' , function() {
+        div.style.backgroundColor = "black";
+        console.log(div);
+    })
+})
+}
+fill();
+
+
+

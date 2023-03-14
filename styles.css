@@ -2,18 +2,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    
-    
+    border: black 1px solid;
 }
 
 .boxes {
    display: grid;
     width: 32px;
     height: 32px;
-    border: black 1px solid;
-
-    
-   
+    border: gray 1px dashed;
 }
 
 .parent {
